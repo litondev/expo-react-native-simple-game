@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Hayo Tebak",
+    "slug": "hayo-tebak",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3757051050194542~1189001586"
+      },
+      "package": "com.litoninot.hayotebak"
+    }
+  }
+}
